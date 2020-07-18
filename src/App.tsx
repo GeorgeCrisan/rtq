@@ -105,7 +105,7 @@ const App: React.FC = () => {
       <Wrapper>
         <h1 style={{marginTop: "100px"}} >Kyrill's Clever Quizz </h1>
         {catS.length > 0  && <div style={{padding: '0 16px 0 16px', background: 'rgba(1,1,1,0.2)'}} >
-          <p style={{fontSize: 24, color: "#87f1ff" }} > {catS} </p>
+          <p style={{fontSize: 16, color: "#87f1ff" }} > {catS} </p>
         </div>}
         {gameOver || userAnswers.length === tq ? (
           <button className='start' onClick={startTrivia}>
