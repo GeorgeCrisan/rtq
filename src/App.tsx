@@ -112,7 +112,7 @@ const App: React.FC = () => {
             Are you ready to start? Then click here!
           </button>
         ) : null}
-        {!gameOver ? <p className='score'>Score: {score}</p> : null}
+        {!gameOver ? <p className='score'>{!gameOver && userAnswers.length !== tq ?"Score" : "Final Score"}: {score}</p> : null}
         {loading ? <p>Loading Questions...</p> : null}
         {!loading && !gameOver && (
           <QuestionCard
