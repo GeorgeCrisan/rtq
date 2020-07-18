@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
     let mapCat:any = {
       '17': 'Science and Nature',
-      '18': 'Science: Computes',
+      '18': 'Science of Computers',
       '20': 'Mythologhy',
       '22': 'Geography',
       '27': 'Animals',
